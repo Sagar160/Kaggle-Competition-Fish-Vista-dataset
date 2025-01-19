@@ -17,11 +17,17 @@ The strategy is implemented using two main steps:
 We pre-process the data by applying basic transformations to all images (as mentioned above). However, pre-processing is implemented with a higher probability of random processing for classes with fewer images.  
 
 ### Data Selection Strategy  
-We designed a data selection strategy for each epoch. For our case, we selected 3 images per class plus 2,000 random images for training and 3 images per class plus 400 random images for validation.  
+We designed a data selection strategy for each epoch. For our case, we selected 3 images per class plus 2,000 random images for training and 3 images per class plus 400 random images for validation. 
 
 For training purposes, the dataset was split into 90% training and 10% validation using a stratified splitting methodology.  
 
 # Results
 ![image](https://github.com/user-attachments/assets/2d3c2a24-7328-43d7-ada0-e7585717ea03)
 
-
+## Technologies and Tools
+- Python
+- Pandas, NumPy
+- PyTorch
+- Scikit-learn
+- Computer Vision
+- Transfer Learning
