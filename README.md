@@ -29,5 +29,6 @@ For training purposes, the dataset was split into 90% training and 10% validatio
 - Pandas, NumPy
 - PyTorch
 - Scikit-learn
+- Vision Transformer
 - Computer Vision
 - Transfer Learning
